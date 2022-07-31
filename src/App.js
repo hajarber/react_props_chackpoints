@@ -11,7 +11,7 @@ function App() {
     alert(" This is Hajar's profile")
   };
   return (
-    <div style={{ width: "auto",margin:"0 400px",boxShadow: "5px #ebe0e0",display:'flex',justifyContent:"center"}} >
+    <div style={{ width: "auto",margin:"0 400px", borderRadius:"20%",boxShadow: "5px 5px 5px #ebe0e0",display:'flex',justifyContent:"center"}} >
 
       <Profile info={profile} handleName={handleName}>
       <img style={{ borderRadius: '30%', width: "400px"}} src={img} alt="profile"/>
